@@ -138,6 +138,14 @@ Header
 =================
 */
 
+#particles-js canvas {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .header-area {
     background: #000 url("../images/header-img.jpg") top 35px right no-repeat;
     width: 100%;
@@ -190,6 +198,9 @@ Header
     margin-bottom: 1.5rem;
 }
 
+.header-area .intro button {
+    margin-top: 30px;
+}
 /*
 =================
 Gallery
